@@ -1,0 +1,105 @@
+﻿@using admin_master_pro__mvc_.Models;
+@model EmployeeViewModel
+@{
+    ViewBag.Title = "Modal";
+    Layout = null;
+}
+<!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+body {margin:0;}
+               .icon-bar {
+  width: 100%;
+  background-color: #03a9f4;
+  overflow: auto;
+}
+
+
+.icon-bar a {
+  float: left;
+  width: 8%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: #000;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container { 
+  position: relative;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+element.style {
+    width: 50%;
+}
+</style>
+<div class="modal-content">
+    <div class="modal-header">
+        <h4 class="modal-title"><b>PARTIAL VIEW</b></h4>
+        <a class="close" data-dismiss="modal" href="#"></a>
+        <div class="modal-close-area modal-close-df">
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="icon-bar">
+            <a class="active" href="#"><i class="fa fa-home"></i></a>
+            <a href="#"><i class="fa fa-search"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-globe"></i></a>
+            <a href="#"><i class="fa fa-trash"></i></a>
+            <a href="#"><i class="fa fa-dropbox"></i></a>
+            <a href="#"><i class="fa fa-skype"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            @*<a href="#"><i class="fa fa-digg"></i></a>*@
+            <a href="#"><i class="fa fa-edge"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            @*<a href="#" class="close" data-dismiss="modal">&times;</a>*@
+        </div>
+        <div class="container">
+            <img src="~/Content/img/alejandro-escamilla-xII7efH1G6o-unsplash.jpg" alt="Notebook" style="width:100%;">
+            <div class="content">
+                <h1>WHO WE ARE</h1>
+                <p>We, Lincoln IT Solutions, are listed among the best service providers in our class with a well experienced and qualified team of technicians who constantly carry out their tasks with keen interest and dedication.</p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="modal-footer" style="border:none !important">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+</div>
+  

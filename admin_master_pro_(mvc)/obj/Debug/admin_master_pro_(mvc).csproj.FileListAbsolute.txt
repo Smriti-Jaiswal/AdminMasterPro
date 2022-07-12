@@ -1,0 +1,248 @@
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\ApplicationInsights.config
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\csc.exe
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\System.Collections.Immutable.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\vbc.exe
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\VBCSCompiler.exe
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\VBCSCompiler.exe.config
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\admin_master_pro_(mvc).dll.config
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\admin_master_pro_(mvc).dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\admin_master_pro_(mvc).pdb
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Antlr3.Runtime.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.SqlServer.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.Web.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.WindowsServer.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.ApplicationInsights.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Google.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Web.Infrastructure.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Newtonsoft.Json.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Owin.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Helpers.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Mvc.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Optimization.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Razor.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Deployment.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Razor.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\WebGrease.dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.Web.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.WindowsServer.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.ApplicationInsights.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Helpers.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Mvc.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Optimization.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Razor.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Deployment.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Razor.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Antlr3.Runtime.pdb
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Newtonsoft.Json.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.SqlServer.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Google.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).dll
+c:\users\lepl\documents\visual studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).pdb
+C:\Users\LEPL\Documents\Visual Studio 2015\Projects\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).csprojResolveAssemblyReference.cache
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\ApplicationInsights.config
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\csc.exe
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\System.Collections.Immutable.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\System.Reflection.Metadata.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\vbc.exe
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\VBCSCompiler.exe
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\VBCSCompiler.exe.config
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\admin_master_pro_(mvc).dll.config
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\admin_master_pro_(mvc).dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\admin_master_pro_(mvc).pdb
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Antlr3.Runtime.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.SqlServer.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.DependencyCollector.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.Web.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.WindowsServer.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.ApplicationInsights.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Google.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Web.Infrastructure.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Newtonsoft.Json.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Owin.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Helpers.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Mvc.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Optimization.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Razor.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Deployment.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Razor.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\WebGrease.dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.DependencyCollector.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.Web.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.WindowsServer.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.ApplicationInsights.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Helpers.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Mvc.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Optimization.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Razor.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Deployment.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Razor.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Antlr3.Runtime.pdb
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Newtonsoft.Json.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.SqlServer.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Google.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).csprojResolveAssemblyReference.cache
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).dll
+D:\Smriti's Project\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).pdb
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).csproj.CoreCompileInputs.cache
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).pdb
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\ApplicationInsights.config
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\csc.exe
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\System.Collections.Immutable.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\System.Reflection.Metadata.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\vbc.exe
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\VBCSCompiler.exe
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\roslyn\VBCSCompiler.exe.config
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\admin_master_pro_(mvc).dll.config
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\admin_master_pro_(mvc).dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\admin_master_pro_(mvc).pdb
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Antlr3.Runtime.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.SqlServer.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.Agent.Intercept.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.DependencyCollector.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.Web.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.WindowsServer.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.ApplicationInsights.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Core.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Cookies.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Facebook.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Google.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.OAuth.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Twitter.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Web.Infrastructure.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Newtonsoft.Json.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Owin.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Helpers.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Mvc.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Optimization.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Razor.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Deployment.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Razor.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\WebGrease.dll
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.DependencyCollector.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.Web.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AI.WindowsServer.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.ApplicationInsights.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Helpers.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Mvc.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Optimization.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.Razor.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Deployment.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\System.Web.WebPages.Razor.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Antlr3.Runtime.pdb
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Newtonsoft.Json.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\EntityFramework.SqlServer.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Core.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Facebook.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Cookies.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.OAuth.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Google.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.Twitter.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).csproj.CopyComplete
+D:\admin_master_pro_(mvc)\admin_master_pro_(mvc)\admin_master_pro_(mvc)\obj\Debug\admin_master_pro_(mvc).csproj.AssemblyReference.cache

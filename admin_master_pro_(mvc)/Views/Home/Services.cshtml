@@ -1,0 +1,91 @@
+﻿
+@using admin_master_pro__mvc_.Models;
+@model EmployeeViewModel
+@{
+    ViewBag.Title = "Services";
+    Layout = null;
+}
+<style>
+    body {
+
+    font-family: Arial;
+    font-size: 15px;
+}
+</style>
+    <table class="table table-bordered table-striped table-hover table-responsive">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact Number</th>
+                <th>Company Name</th>
+                <th>Date of Joining</th>
+                <th>Qualification</th>
+                <th>Marks</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>                  
+                    @{foreach (employee emp in ViewBag.data)
+                        {
+                        <tr>
+
+                           <td>@(ViewBag.data.IndexOf(emp) + 1)</td>
+                            <td>@(emp.firstname + " " + emp.lastname)</td>
+                            <td>@emp.email</td>
+                            <td>@emp.contactnumber</td>
+                            <td>@emp.companyname</td>
+                            <td>@emp.dateofjoining</td>                        
+                            <td>
+                                @{foreach (edu_details edu in emp.edu_details.OrderBy(x => x.qualification))
+                                    {
+                                        @(edu.qualification)<br />
+
+                                    }
+                                }
+                                </td>
+                            <td>
+                                @{foreach (edu_details edu in emp.edu_details)
+                                    {
+                                        @(edu.marks)<br />
+
+                                    }
+                                }
+                            </td>
+                            @*<td><a href='#' class='btn btn-default' onclick='EditEmployeeRecord("+ EmployeeList[i].EmpId +")'><span class='glyphicon glyphicon-edit'></span></a></td>
+                            <td><a href='#' class='btn btn-primary' onclick='DeleteEmployeeRecord("+ EmployeeList[i].EmpId + ")'><span class='glyphicon glyphicon-trash'></span></a></td>*@
+                           <td><a href='#' class='btn btn-default' onclick='EditEmployeeRecord("@emp.ID")'><span class='glyphicon glyphicon-edit'></span></a></td>
+                           <td><a href='#' class='btn btn-primary' onclick='DeleteEmployeeRecord("@emp.ID")'><span class='glyphicon glyphicon-trash'></span></a></td>
+                        </tr>
+              }}                    
+        </tbody>
+    </table>
+<script>
+
+   
+
+    @*function DeleteEmployeeRecord(ID) {
+        debugger;
+        $("#ID").val(ID);
+        var url = '@Url.Action("DeleteEmployeeRecord", "Home")?id=' + ID;
+        $("#partialviewcontent").load(url);
+        $("#partialviewmodal").modal("show");
+    }*@
+
+    @*function DeleteEmployeeRecord(ID) {
+        debugger;
+     
+        $.ajax({
+            typr: "POST",   
+            url:'@Url.Action("DeleteEmployeeRecord", "Home")?ID=' + ID,
+            success: function (result) {
+                debugger;
+                window.location.href = "/Home/About";
+                $("#partialviewmodal").modal("hide");
+                loaddatatable();
+            }
+        })
+    }*@
+</script>

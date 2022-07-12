@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="adminproDBModel1StoreContainer" CdmEntityContainer="adminproDBEntities2">
+    <EntitySetMapping Name="edu_details">
+      <EntityTypeMapping TypeName="adminproDBModel1.edu_details">
+        <MappingFragment StoreEntitySet="edu_details">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="qualification" ColumnName="qualification" />
+          <ScalarProperty Name="marks" ColumnName="marks" />
+          <ScalarProperty Name="rco" ColumnName="rco" />
+          <ScalarProperty Name="rcm" ColumnName="rcm" />
+          <ScalarProperty Name="sts" ColumnName="sts" />
+          <ScalarProperty Name="luo" ColumnName="luo" />
+          <ScalarProperty Name="lum" ColumnName="lum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="adminproDBModel1.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="contactnumber" ColumnName="contactnumber" />
+          <ScalarProperty Name="companyname" ColumnName="companyname" />
+          <ScalarProperty Name="dateofjoining" ColumnName="dateofjoining" />
+          <ScalarProperty Name="rco" ColumnName="rco" />
+          <ScalarProperty Name="rcm" ColumnName="rcm" />
+          <ScalarProperty Name="sts" ColumnName="sts" />
+          <ScalarProperty Name="luo" ColumnName="luo" />
+          <ScalarProperty Name="lum" ColumnName="lum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

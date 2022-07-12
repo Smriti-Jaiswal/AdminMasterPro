@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="adminproDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="edu_details">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="userID" Type="Guid" />
+    <Property Name="qualification" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="marks" Type="Int32" />
+    <Property Name="rco" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="rcm" Type="DateTime" />
+    <Property Name="sts" Type="Int32" />
+    <Property Name="luo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="lum" Type="DateTime" />
+    <NavigationProperty Name="employee" Relationship="Self.FK_edu_details_employee" FromRole="edu_details" ToRole="employee" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="firstname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="lastname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="contactnumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="companyname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="dateofjoining" Type="DateTime" />
+    <Property Name="rco" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="rcm" Type="DateTime" />
+    <Property Name="sts" Type="Int32" />
+    <Property Name="luo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="lum" Type="DateTime" />
+    <NavigationProperty Name="edu_details" Relationship="Self.FK_edu_details_employee" FromRole="employee" ToRole="edu_details" />
+    <NavigationProperty Name="employee1" Relationship="Self.FK_employee_employee" FromRole="employee" ToRole="employee1" />
+    <NavigationProperty Name="employee2" Relationship="Self.FK_employee_employee" FromRole="employee1" ToRole="employee" />
+  </EntityType>
+  <Association Name="FK_edu_details_employee">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="edu_details" Type="Self.edu_details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="edu_details">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_employee_employee">
+    <End Role="employee" Type="Self.employee" Multiplicity="1" />
+    <End Role="employee1" Type="Self.employee" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="employee1">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="adminproDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="edu_details" EntityType="Self.edu_details" />
+    <EntitySet Name="employees" EntityType="Self.employee" />
+    <AssociationSet Name="FK_edu_details_employee" Association="Self.FK_edu_details_employee">
+      <End Role="employee" EntitySet="employees" />
+      <End Role="edu_details" EntitySet="edu_details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_employee_employee" Association="Self.FK_employee_employee">
+      <End Role="employee" EntitySet="employees" />
+      <End Role="employee1" EntitySet="employees" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

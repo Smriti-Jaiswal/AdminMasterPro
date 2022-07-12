@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="adminproDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="edu_details">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="userID" Type="uniqueidentifier" />
+          <Property Name="qualification" Type="varchar(max)" />
+          <Property Name="marks" Type="int" />
+          <Property Name="rco" Type="varchar(max)" />
+          <Property Name="rcm" Type="datetime" />
+          <Property Name="sts" Type="int" />
+          <Property Name="luo" Type="varchar(max)" />
+          <Property Name="lum" Type="datetime" />
+        </EntityType>
+        <EntityType Name="employee">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="firstname" Type="varchar(max)" />
+          <Property Name="lastname" Type="varchar(max)" />
+          <Property Name="email" Type="varchar(max)" />
+          <Property Name="contactnumber" Type="varchar(max)" />
+          <Property Name="companyname" Type="varchar(max)" />
+          <Property Name="dateofjoining" Type="datetime" />
+          <Property Name="rco" Type="varchar(max)" />
+          <Property Name="rcm" Type="datetime" />
+          <Property Name="sts" Type="int" />
+          <Property Name="luo" Type="varchar(max)" />
+          <Property Name="lum" Type="datetime" />
+        </EntityType>
+        <Association Name="FK_edu_details_employee">
+          <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+          <End Role="edu_details" Type="Self.edu_details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="edu_details">
+              <PropertyRef Name="userID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_employee_employee">
+          <End Role="employee" Type="Self.employee" Multiplicity="1" />
+          <End Role="employee1" Type="Self.employee" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="employee1">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="adminproDBModelStoreContainer">
+          <EntitySet Name="edu_details" EntityType="Self.edu_details" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="employee" EntityType="Self.employee" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_edu_details_employee" Association="Self.FK_edu_details_employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="edu_details" EntitySet="edu_details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_employee_employee" Association="Self.FK_employee_employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="employee1" EntitySet="employee" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="adminproDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="edu_details">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="userID" Type="Guid" />
+          <Property Name="qualification" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="marks" Type="Int32" />
+          <Property Name="rco" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="rcm" Type="DateTime" Precision="3" />
+          <Property Name="sts" Type="Int32" />
+          <Property Name="luo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="lum" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="employee" Relationship="Self.FK_edu_details_employee" FromRole="edu_details" ToRole="employee" />
+        </EntityType>
+        <EntityType Name="employee">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="firstname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="lastname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="contactnumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="companyname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="dateofjoining" Type="DateTime" Precision="3" />
+          <Property Name="rco" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="rcm" Type="DateTime" Precision="3" />
+          <Property Name="sts" Type="Int32" />
+          <Property Name="luo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="lum" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="edu_details" Relationship="Self.FK_edu_details_employee" FromRole="employee" ToRole="edu_details" />
+          <NavigationProperty Name="employee1" Relationship="Self.FK_employee_employee" FromRole="employee" ToRole="employee1" />
+          <NavigationProperty Name="employee2" Relationship="Self.FK_employee_employee" FromRole="employee1" ToRole="employee" />
+        </EntityType>
+        <Association Name="FK_edu_details_employee">
+          <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+          <End Role="edu_details" Type="Self.edu_details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="edu_details">
+              <PropertyRef Name="userID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_employee_employee">
+          <End Role="employee" Type="Self.employee" Multiplicity="1" />
+          <End Role="employee1" Type="Self.employee" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="employee1">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="adminproDBEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="edu_details" EntityType="Self.edu_details" />
+          <EntitySet Name="employees" EntityType="Self.employee" />
+          <AssociationSet Name="FK_edu_details_employee" Association="Self.FK_edu_details_employee">
+            <End Role="employee" EntitySet="employees" />
+            <End Role="edu_details" EntitySet="edu_details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_employee_employee" Association="Self.FK_employee_employee">
+            <End Role="employee" EntitySet="employees" />
+            <End Role="employee1" EntitySet="employees" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="adminproDBModelStoreContainer" CdmEntityContainer="adminproDBEntities1">
+          <EntitySetMapping Name="edu_details">
+            <EntityTypeMapping TypeName="adminproDBModel.edu_details">
+              <MappingFragment StoreEntitySet="edu_details">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="userID" ColumnName="userID" />
+                <ScalarProperty Name="qualification" ColumnName="qualification" />
+                <ScalarProperty Name="marks" ColumnName="marks" />
+                <ScalarProperty Name="rco" ColumnName="rco" />
+                <ScalarProperty Name="rcm" ColumnName="rcm" />
+                <ScalarProperty Name="sts" ColumnName="sts" />
+                <ScalarProperty Name="luo" ColumnName="luo" />
+                <ScalarProperty Name="lum" ColumnName="lum" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="employees">
+            <EntityTypeMapping TypeName="adminproDBModel.employee">
+              <MappingFragment StoreEntitySet="employee">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="firstname" ColumnName="firstname" />
+                <ScalarProperty Name="lastname" ColumnName="lastname" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="contactnumber" ColumnName="contactnumber" />
+                <ScalarProperty Name="companyname" ColumnName="companyname" />
+                <ScalarProperty Name="dateofjoining" ColumnName="dateofjoining" />
+                <ScalarProperty Name="rco" ColumnName="rco" />
+                <ScalarProperty Name="rcm" ColumnName="rcm" />
+                <ScalarProperty Name="sts" ColumnName="sts" />
+                <ScalarProperty Name="luo" ColumnName="luo" />
+                <ScalarProperty Name="lum" ColumnName="lum" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

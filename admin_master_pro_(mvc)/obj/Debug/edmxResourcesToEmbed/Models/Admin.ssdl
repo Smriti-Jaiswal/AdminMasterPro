@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="adminproDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="edu_details">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="userID" Type="uniqueidentifier" />
+    <Property Name="qualification" Type="varchar(max)" />
+    <Property Name="marks" Type="int" />
+    <Property Name="rco" Type="varchar(max)" />
+    <Property Name="rcm" Type="datetime" />
+    <Property Name="sts" Type="int" />
+    <Property Name="luo" Type="varchar(max)" />
+    <Property Name="lum" Type="datetime" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="firstname" Type="varchar(max)" />
+    <Property Name="lastname" Type="varchar(max)" />
+    <Property Name="email" Type="varchar(max)" />
+    <Property Name="contactnumber" Type="varchar(max)" />
+    <Property Name="companyname" Type="varchar(max)" />
+    <Property Name="dateofjoining" Type="datetime" />
+    <Property Name="rco" Type="varchar(max)" />
+    <Property Name="rcm" Type="datetime" />
+    <Property Name="sts" Type="int" />
+    <Property Name="luo" Type="varchar(max)" />
+    <Property Name="lum" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_edu_details_employee">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="edu_details" Type="Self.edu_details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="edu_details">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_employee_employee">
+    <End Role="employee" Type="Self.employee" Multiplicity="1" />
+    <End Role="employee1" Type="Self.employee" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="employee1">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="adminproDBModelStoreContainer">
+    <EntitySet Name="edu_details" EntityType="Self.edu_details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employee" EntityType="Self.employee" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_edu_details_employee" Association="Self.FK_edu_details_employee">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="edu_details" EntitySet="edu_details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_employee_employee" Association="Self.FK_employee_employee">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="employee1" EntitySet="employee" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

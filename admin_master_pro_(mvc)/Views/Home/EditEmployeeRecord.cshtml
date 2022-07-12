@@ -1,0 +1,108 @@
+﻿@using admin_master_pro__mvc_.Models;
+@model EmployeeViewModel
+@{
+    ViewBag.Title = "Edit";
+    Layout = null;
+}
+<div class="modal-content">
+    <div class="modal-header">
+        <h4 class="modal-title"><b>Update Employee Record</b></h4>
+        <a class="close" data-dismiss="modal" href="#"></a>
+        <div class="modal-close-area modal-close-df">
+        </div>
+    </div>
+    <div class="modal-body">
+        <form id="SubmitForm">
+            @Html.HiddenFor(m => m.ID, new { @id = "EmpId" })
+
+            <div class="row col-md-12">
+                <div class="form-group col-md-6">
+                    <label>First Name</label>
+                    @Html.TextBoxFor(m => m.firstname, new { @id = "firstname", @class = "form-control", @placeholder = "Enter First Name*" })
+                    @Html.ValidationMessageFor(m => m.firstname, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Last Name</label>
+                    @*@Html.TextBoxFor(m => m.lastname, new { @id = "lastname", @class = "form-control", @placeholder = "Enter Last Name*" })*@
+                    @Html.EditorFor(model => model.lastname, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(m => m.lastname, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="row col-md-12">
+                <div class="form-group col-md-6">
+                    <label>Email</label>
+                    @Html.TextBoxFor(m => m.email, new { @id = "email", @class = "form-control", @placeholder = "Enter Email*" })
+                    @Html.ValidationMessageFor(m => m.email, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Contact Number</label>
+                    @Html.TextBoxFor(m => m.contactnumber, new { @id = "contactnumber", @class = "form-control", @placeholder = "Enter Contact Number*" })
+                    @Html.ValidationMessageFor(m => m.contactnumber, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="row col-md-12">
+                <div class="form-group col-md-6">
+                    <label>Company Name</label>
+                    @Html.TextBoxFor(m => m.companyname, new { @id = "companyname", @class = "form-control", @placeholder = "Enter Company Name*" })
+                    @Html.ValidationMessageFor(m => m.companyname, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group col-md-6">
+                    <div class="form-group data-custon-pick" id="data_1">
+                        <label><b>Date of Joining</b></label>
+                        <div class="input-group date">
+                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                            @Html.TextBoxFor(m => m.dateofjoining, "{0:yyyy-MM-dd}", new { @id = "dateofjoining", @class = "form-control", @placeholder = "yyyy-mm-dd" })
+                            @Html.ValidationMessageFor(m => m.dateofjoining, "", new { @class = "text-danger" })
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-md-12">
+                <div class="form-group col-md-6">
+                    <label>Qualification</label>
+                    @foreach (var qualification in Model.qualification)
+                    {
+                        @Html.TextBoxFor(m => m.qualification, new { @id = "qualification0", @class = "form-control", @placeholder = "Enter Qualification*", @Value = qualification })
+                        @Html.ValidationMessageFor(m => m.qualification, "", new { @class = "text-danger" })
+                    }
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Marks</label>
+                    @foreach (var marks in Model.marks)
+                    {
+                        @Html.TextBoxFor(m => m.marks, new { @id = "marks0", @class = "form-control mb-10", @placeholder = "Enter Marks*", @Value = marks })
+                        @Html.ValidationMessageFor(m => m.marks, "", new { @class = "text-danger" })
+                    }
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <div class="modal-footer" style="border:none !important">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" id="EditEmployeeRecord">Submit</button>
+    </div>
+</div>
+<script>
+    $("#EditEmployeeRecord").click(function () {
+        debugger;
+        var data = $("#SubmitForm").serialize();
+        $.validator.unobtrusive.parse($("#SubmitForm"));
+        if ($("#SubmitForm").valid()) {
+            $.ajax({
+                type: "POST",
+                url: "/Home/SaveDataInDatabase",
+                data: data,
+                success: function (result) {
+                    alert("Success.....!");
+                    loaddatatable();
+                   // window.location.href = "/Home/About";
+                    $("#partialviewmodal").modal("hide");
+                    loaddatatable();
+                }
+            })
+        }
+    })
+</script>

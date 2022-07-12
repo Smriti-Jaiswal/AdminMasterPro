@@ -1,0 +1,150 @@
+﻿@using admin_master_pro__mvc_.Models;
+@model EmployeeViewModel
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+  
+    .btn-primary {
+    color: #fff;
+    background-color: #03a9f4;
+    border-color: #03a9f4;
+}
+    .modal-footer {
+    padding: 0px 15px 15px !important;
+    margin-top: 0px !important;
+    text-align: right;
+
+}
+    .modal-adminpro-general .modal-body {
+    overflow:no-display;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 10px 10px 35px;
+}
+    .header-color-modal {
+    padding: 10px 10px 10px 10px;
+   
+}
+    .modal-footer {
+    padding: 19px 20px 20px;
+    margin-top: 15px;
+    text-align: right;
+    border-top: 0px !important;
+}
+
+element.style {
+    width: 50%;
+}
+.container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+</style>
+
+<div class="breadcome-area mg-b-30 small-dn">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-14">
+                <div class="breadcome-list shadow-reset">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <button type="button" value="open modal" id="open"  class="btn btn-custon-rounded-four btn-primary">Add Modal</button>
+                            <div class="modal fade" role="dialog" id="div_modal" data-url="@Url.Action("Modal","Home")"></div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <ul class="breadcome-menu">
+                                <li>
+                                    <a href="#">Home</a> <span class="bread-slash">/</span>
+                                </li>
+                                <li>
+                                    <span class="bread-blod">About</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="partialviewmodal" class="modal modal-adminpro-general default-popup-PrimaryModal fade" role="dialog">
+    <div class="modal-dialog" id="partialviewcontent">
+        
+    </div>
+</div>
+<div class="modal-area-button">
+    <button type="button" class="btn btn-custon-rounded-four btn-primary" data-toggle="modal" onclick="AddNewEmployee()">Add New Employee</button>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-10" id="divid">                    
+        </div>
+        <div class="modal-area-button">
+            <button type="button" id="buttonId" class="btn btn-custon-rounded-four btn-default" onclick="loaddatatable();">Add Data Table</button>
+        </div>
+    </div>
+</div>
+    <div id="DeleteConfirmation" class="modal modal-adminpro-general default-popup-PrimaryModal fade" role="dialog">
+        <div id="dlt" class="modal-dialog">
+
+        </div>
+    </div>
+<script src="~/Content/js/vendor/jquery-1.11.3.min.js"></script>
+<script>
+    //$(document).ready(function () {
+    //    loaddatatable();
+
+    //})
+    function AddNewEmployee(ID) {
+        debugger;
+        $("#EmpId").val();
+        var url = '@Url.Action("AddNewEmployee","Home")';
+        $("#partialviewmodal").modal();
+        $("#partialviewcontent").load(url);
+    }
+    function EditEmployeeRecord(ID) {
+        debugger;
+        var url = '@Url.Action("EditEmployeeRecord", "Home")?id=' + ID;
+        $("#partialviewcontent").load(url);
+        $("#partialviewmodal").modal("show");
+
+    }
+    function DeleteEmployeeRecord(ID) {
+        debugger;
+        $("#ID").val(ID);
+        var url = '@Url.Action("DeleteEmployeeRecord", "Home")?id=' + ID;
+        $("#partialviewcontent").load(url);
+        $("#partialviewmodal").modal("show");
+    }
+    function DeleteEmployee(ID) {
+        debugger;
+        $("#ID").val(ID);
+       var url = '@Url.Action("DeleteEmployee", "Home")?id=' + ID;
+        $.ajax({
+            typr: "POST",
+            //url: "/Home/DeleteEmployeeRecord?ID=" + ID,
+            url:url,
+            success: function (result) {
+                debugger;
+                //window.location.href = "/Home/About";
+                $("#partialviewmodal").modal("hide");
+                loaddatatable();
+            }
+        })
+    }
+    function loaddatatable() {
+        $('#divid').load('@Url.Action("Services", "Home")');
+    }
+  </script>
+<script>
+
+    $('#open').click(function () {
+        var url = '@Url.Action("Modal","Home")';
+        $("#partialviewcontent").load(url);
+        $("#partialviewmodal").modal("show");
+
+    })
+</script>
